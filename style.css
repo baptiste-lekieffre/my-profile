@@ -1,0 +1,74 @@
+/* Colors and font */
+
+body {background: #FFFFFF;
+	font-family: 'Vidaloka', serif;
+	font-size: 16px;
+	}
+
+h1 {color: #000033;}
+
+h2 {color: #666699;}
+
+a {text-decoration: none;
+	color:#9999FF;
+	font-family: 'Noto Sans JP', sans-serif;
+	}
+
+a:hover {color: #663333;
+	}
+
+p {color: #FFFFFF;
+	font-family: 'Noto Sans JP', sans-serif;
+	}
+
+/* Custom design */
+
+.container {width: 700px;
+			margin: 40px auto;
+			}
+
+@media (max-width: 720px){
+	.container {width: 600px
+	}
+}
+@media (max-width: 540px){
+	.container {width: 400px
+	}
+}
+
+.card-taupe {
+	background-color: #996666;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+	}
+
+.list-inline {text-decoration: none;
+	}
+
+#img-circular {border-radius: 50%;
+	}
+
+#btn-blue {background-color: #9999FF;
+	font-family: 'Noto Sans JP', sans-serif;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+ 	}
+
+#btn-blue:hover {background-color: #663333;} 
+
+.list-inline {list-style: none;
+			padding-left: 0px;}
+
+.list-inline li {display:inline;
+				padding: 30px;
+				}
+
+/* Adjustment design */
+
+.list-inline i {font-size: 50px;}
+
+#introduction p {margin-bottom: 30px;}
